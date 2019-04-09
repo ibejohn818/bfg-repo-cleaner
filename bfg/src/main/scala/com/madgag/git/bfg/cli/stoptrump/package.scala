@@ -4,10 +4,7 @@ import scala.util.Random
 
 package object stoptrump {
   val urls = Seq(
-    "https://www.aclu.org/",
-    "https://www.theguardian.com/us-news/trump-administration",
-    "https://github.com/bkeepers/stop-trump",
-    "https://www.rescue.org/topic/refugees-america"
+    "https://www.foldsofhonor.org/",
   )
 
   assert(urls.forall(_.startsWith("https://")))
@@ -18,9 +15,9 @@ package object stoptrump {
     s"""
        |
        |--
-       |You can rewrite history in Git - don't let Trump do it for real!
-       |Trump's administration has lied consistently, to make people give up on ever
-       |being told the truth. Don't give up: $url
+       |Proud to be an American
+       |Forever thankful to those who fought and died so I can live free
+       |
        |--
        |
        |""".stripMargin
